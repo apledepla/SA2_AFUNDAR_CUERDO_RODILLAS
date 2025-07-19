@@ -1,1 +1,1 @@
-# MCMC for Bayesian Inference
+# MCMC for Bayesian Inference & KS test using Permutation Approach

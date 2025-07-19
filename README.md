@@ -1,1 +1,1 @@
-# Permutation Tests
+# Permutation Tests & MCMC for Bayesian Inference

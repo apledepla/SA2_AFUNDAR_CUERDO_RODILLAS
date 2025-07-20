@@ -57,5 +57,7 @@ In summary, the analysis establishes that Glucose is the strongest and most cons
 
 To address the limitations of the study, future research could consider the following:
   Data Imputation Techniques - To replace the missing values from the dataset into values that represent the entire dataset for better representation and analysis
+  
   Broader dataset - Since the current study only focused on female & pregnant patiets on Pima Indians, future research can broaden the dataset that include other participants such as other genders, ethnicities and groups.
+  
   Model Validation - This is to cross-validate the preliminary model used to create a robust and accurate representation of the dataset.

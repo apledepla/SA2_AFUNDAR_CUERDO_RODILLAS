@@ -40,7 +40,17 @@ This study aims to explore and identify the most significant clinical predictors
     The dataset also only includes female patients of Pima Indian descent, limiting the scope into female patients who are pregnant and generalization of findings to broader populations. 
     The dataset is cross-sectional, lacking any temporal information (e.g., disease progression or patient follow-up).
 
-Finally, the scope of the analysis is restricted to basic and intermediate statistical methods due to the academic nature of the project, and does not include advanced machine learning techniques. 
+Finally, the scope of the analysis is restricted to basic and intermediate statistical methods due to the academic nature of the project, and does not include advanced machine learning techniques. Thus, it is important to interpret these results within the context of these limitations.
 
-Thus, it is important to interpret these results within the context of these limitations.
+
+## Conclusion
+
+Based on the overall comprehensive statistical analysis, several conclusion can be drawin regarding the primary predictors of diabetes risk among women in pregnancy. In both the permutation testing and Bayesian inference, it was consistently identified Glucose as the main driving factor in the probability of diabetes,  with BMI serving as an important secondary contributor. This conclusion is further supported by the bootstrap and jackknife resampling analyses, which confirmed the stability and low bias of the glucose coefficient, especially when combined with BMI, indicating a strong and consistent relationship.
+
+For the distribution of key variables, exploratory data analysis revealed several predictors, e.g. Glucose, BMI, and Insulin, showed skewed distribution. Further backed by the KS tests. By this, it thus shows that the binary outcome variable aligned with a binomial distribution, validating the application of logistic regression for classification modeling.
+
+In finalizing the report, the analyses established that through effective resampling techniques, it shows that the Glucose + BMI model consistently demonstrated as the best predictive model, reaching up to 76.32% accuracy rating. And with better evaluation to accuracy, recall, and F1-scores, it offers the most balanced prediction among all the models. Based on the logistic regression models, each one-unit increase in Glucose is associated with approximately a 3.7% increase in the odds of developing diabetes, as indicated by the coefficient (~0.038). This effect was consistent across resampling methods and remained the strongest predictor of diabetes risk.
+
+In summary, the analysis establishes that Glucose is the strongest and most consistent predictor of diabetes risk, with BMI improving model performance without adding significant complexity. Through effective resampling techniques, it helped reduced the overfitting and addressed a concern of having a smaller dataset. These conclusions directly address the research questions by identifying key predictors, confirming variable distributions, and validating model performance through resampling strategies.
+
 

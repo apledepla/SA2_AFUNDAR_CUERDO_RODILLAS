@@ -29,4 +29,6 @@ Several key patterns emerged from the exploratory data analysis of the health-re
 
 It is shown in the KS test using Permutation approach that there are 3 features that have significant effect in the odds of having diabetes. This includes the Glucose, BMI and Insulin with Glucose being the most impactful one. Moreover, Pregnancies have borderline significance but not enough to reject the null hypothesis. On the other hand, the MCMC for Bayesian Inference justified the findings of the permutation approach with Glucose having the highest impact on the odds of having diabetes, followed by the BMI. On the other hand, Pregnancies and BloodPressure had a minimal postive relationship on having diabetes despite being insignificant. There is not enough evidence or confidence to truly accept these effects.
 
+## Scope and Limitation
+
 

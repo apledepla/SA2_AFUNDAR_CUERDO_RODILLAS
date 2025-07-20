@@ -32,3 +32,15 @@ It is shown in the KS test using Permutation approach that there are 3 features 
 Now, since it was justified that the permutation approach with Glucose have the higehst impact, in the resampling phase, bootstrap and jackknife methods were applied to evaluate the stability, bias, and variance of the glucose coefficient across different model configurations. Both resampling techniques on the Glucose produced low bias and variance, confirming the robustness of glucose as a key predictor. After the Glucose classification, it numerous predictors were added with the key predictor. After adding 2 more variables (BMI and Insulin), it is found out that adding BMI consistently improved the stability of the coefficient by reducing variance, and proved to be the better version than the glucose only. For model validation, bootstrap resampling was also used to assess performance metrics such as accuracy, precision, recall, F1-score, and RMSE. 
 
 Results showed that the Glucose + BMI model achieved the best overall performance, with improved recall and F1-scores compared to models using glucose alone or combined with insulin. This indicates that while glucose remains the strongest individual predictor, the inclusion of BMI leads to a more accurate and balanced prediction model for diabetes risk.
+
+## Scope and Limitations
+
+This study aims to explore and identify the most significant clinical predictors of diabetes using the Pima Indians Diabetes Dataset, which includes performing exploratory data analysis, visualizing variable distributions, and applying statistical inference techniques such as bootstrap, jackknife, permutation testing, and Bayesian inference. The dataset provides eight health-related features and one binary outcome. All analysis will be conducted using R. However, several limitations are needed to be acknowledged:
+    Several features contain zero values that likely represent missing data. 
+    The dataset also only includes female patients of Pima Indian descent, limiting the scope into female patients who are pregnant and generalization of findings to broader populations. 
+    The dataset is cross-sectional, lacking any temporal information (e.g., disease progression or patient follow-up).
+
+Finally, the scope of the analysis is restricted to basic and intermediate statistical methods due to the academic nature of the project, and does not include advanced machine learning techniques. 
+
+Thus, it is important to interpret these results within the context of these limitations.
+

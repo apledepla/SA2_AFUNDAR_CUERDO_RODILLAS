@@ -53,4 +53,9 @@ In finalizing the report, the analyses established that through effective resamp
 
 In summary, the analysis establishes that Glucose is the strongest and most consistent predictor of diabetes risk, with BMI improving model performance without adding significant complexity. Through effective resampling techniques, it helped reduced the overfitting and addressed a concern of having a smaller dataset. These conclusions directly address the research questions by identifying key predictors, confirming variable distributions, and validating model performance through resampling strategies.
 
+## Future Exploration Ideas
 
+To address the limitations of the study, future research could consider the following:
+  Data Imputation Techniques - To replace the missing values from the dataset into values that represent the entire dataset for better representation and analysis
+  Broader dataset - Since the current study only focused on female & pregnant patiets on Pima Indians, future research can broaden the dataset that include other participants such as other genders, ethnicities and groups.
+  Model Validation - This is to cross-validate the preliminary model used to create a robust and accurate representation of the dataset.

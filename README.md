@@ -20,7 +20,7 @@ Insulin: 2-hour serum insulin levels
 Outcome: Diabetes diagnosis (1 = diabetic, 0 = non-diabetic)
 
 ## Instructions on how to read:
-  Task 1 & 6 contains the introduction of the problem statement, research questions and exploratory data analysis, Task 4 & 5 contains the KS test using Permutation approach as well as the MCMC for Bayesian Inference, Task 2 & 3 contains the jackknife and bootstrap with resampling for model validation. The summary and findings can be seen below the README file. Follow these path for a clear story telling and explanation.
+  Task 1 & 6 contains the introduction of the problem statement, research questions and exploratory data analysis, Task 4 & 5 contains the KS test using Permutation approach as well as the MCMC for Bayesian Inference, Task 2 & 3 contains the jackknife and bootstrap with resampling for model validation. The summary and findings can be seen below the README file. Follow these path for a clear story telling and explanation. The pdf file contains the entire research paper.
 
 
 ## Summary and Findings

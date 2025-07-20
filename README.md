@@ -24,5 +24,6 @@ The dataset contains anonymized medical diagnostic measurements of women, includ
 
 
 ## Summary and Findings
-
+	•	The hypothesis testing showed that only a few passed to reject the hypothesis. This includes Glucose, Insulin and BMI with an empirical p-value of less than 0.05, with Glucose being the most impactful in the odds of having diabetes. Moreover, Pregnancies feature have a borderline significance but was not enough to reject the null hypothesis.
+ 	•	MCMC for Bayesian Inference showed that the Glucose had the highest effect on the odds of having diabetes, followed by BMI. Moreover, the Pregnancies and BloodPressure despite being insiginicant, showed minimal postive relationship on the odds of having diabetes. However, there is not enough evidence or confidence to either conclude significance to whether they have an effect.
 

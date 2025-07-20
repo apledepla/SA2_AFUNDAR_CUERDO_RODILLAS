@@ -14,6 +14,15 @@ The dataset contains anonymized medical diagnostic measurements of women, includ
 	•	Insulin: 2-hour serum insulin levels
 	•	Outcome: Diabetes diagnosis (1 = diabetic, 0 = non-diabetic)
 
+ ## Task Distribution
+ 	•	Task 1: Dataset Selection
+	•	Task 2: Bootstrap & Jackknife
+	•	Task 3: Resampling for Model Validation
+	•	Task 4: Permutation Tests - Afundar
+	•	Task 5: MCMC for Bayesian Inference - Afundar
+ 	•	Task 6: Probability Density Estimation
+
+
 ## Summary and Findings
 
 

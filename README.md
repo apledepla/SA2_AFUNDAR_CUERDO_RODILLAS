@@ -3,7 +3,9 @@
 
 ## Group Members:
 Audrie Lex Afundar
+
 Naomi Hannah Cuerdo
+
 Christian Miguel Rodillas
 
 ## Dataset Overview
